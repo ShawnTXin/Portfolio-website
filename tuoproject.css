@@ -1,0 +1,48 @@
+.header-portfolio{
+	height: 500px;
+	background-image: url(dataimage.jpg);
+	background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.header *{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 60px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+.Home{
+	margin-top: 10px;
+}
+.Projects{
+	margin-top: 10px;
+}
+.Contact{
+	margin-top: 10px;
+}
+.linkedin{
+	border-radius: 30px;
+	cursor: pointer;
+}
+.linkedin-icon{
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.portfolio-projects{
+	font-size: 90px;
+	color: white;
+	text-align: center;
+  margin-top: 300px;
+  min-width: 900px;
+}
+/* linkin icon bottom left clickable 
+When the window is small, background pic is not covered to the right*/
